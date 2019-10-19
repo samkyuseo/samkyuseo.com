@@ -14,13 +14,15 @@
   <body class="is-preload">
     <!-- Sidebar -->
     <section id="sidebar">
+		
       <div class="inner">
         <nav>
           <ul>
             <li><a href="#intro">Welcome</a></li>
             <li><a href="#one">Intro</a></li>
-            <li><a href="#two">Skills</a></li>
-            <li><a href="#three">Get in touch</a></li>
+			<li><a href="#two">Skills</a></li>
+			<li><a href="#three">Projects</a></li>
+            <li><a href="#four">Get in touch</a></li>
           </ul>
         </nav>
       </div>
@@ -31,15 +33,19 @@
       <!-- Intro -->
       <section id="intro" class="wrapper style1 fullscreen fade-up">
         <div class="inner">
-          <h1>Samuel Lee</h1>
-          <p>
-            Hello! Welcome to my personal website.
-          </p>
-          <ul class="actions">
-            <li>
-              <a href="#one" class="button scrolly">Find out more about me!</a>
-            </li>
-          </ul>
+			<!-- <div class="image"> -->
+				<img src="images/headshot.jpg" class="rounded" />
+			<!-- </div> -->
+			
+			<h1>Samuel Lee</h1>
+			<p>
+				Hello! Welcome to my personal website.
+			</p>
+			<ul class="actions">
+				<li>
+				<a href="#one" class="button scrolly">Find out more about me!</a>
+				</li>
+			</ul>
         </div>
       </section>
 
@@ -51,18 +57,15 @@
           /></a>
           <div class="content">
             <div class="inner">
-              <h2>Education</h2>
+              <h2>Education and Extracurriculars</h2>
               <p>
                 I am a third year Computer Science student at the University of
-                Southern California (USC).
+				Southern California (USC). I am pursuing a minor in Jazz Studies and am also a member of 
+				USC's Thornton Jazz Band. I recently joined Scope SC, a community of computer science students 
+				who come together to learn new skills during meetings and apply them in hackathons. I am also 
+				the scholarship chair in Phi Delta Theta, a social fraternity. I spearheaded our mentorship program,
+				which connects alumni in the workforce (mentors) to current active brothers (mentees). 
               </p>
-              <ul class="actions">
-                <li>
-                  <a href="generic.html" class="button"
-                    >Learn more about my course work</a
-                  >
-                </li>
-              </ul>
             </div>
           </div>
         </section>
@@ -81,10 +84,10 @@
                 along with a related set of meta data.
               </p>
               <ul class="actions">
-                <li>
-                  <a href="generic.html" class="button">Learn more</a>
-                </li>
-              </ul>
+					<li>
+					<a href="#three" class="button scrolly">Learn more about my projects</a>
+					</li>
+				</ul>
             </div>
           </div>
         </section>
@@ -101,16 +104,13 @@
                 Thailand during middle school and graduated from the
                 International School of Bangkok with academic honors.
               </p>
-              <!-- <ul class="actions">
-                <li><a href="generic.html" class="button">Learn more</a></li>
-              </ul> -->
             </div>
           </div>
         </section>
       </section>
 
       <!-- Two -->
-      <section id="two" class="wrapper style3 fade-up">
+      <section id="two" class="wrapper style3-alt fade-up">
         <div class="inner">
           <h2>Skills</h2>
           <p>
@@ -118,8 +118,10 @@
             allows me to quickly turn my ideas in to reality. In particular, my
             favorite webstack is MongoDB, Express, React.js, and Node.js (MERN).
 			<ul class="actions">
-				<li><a href="generic.html" class="button">View my projects</a></li>
-			  </ul>
+				<li>
+					<a href="#three" class="button scrolly">Learn more about my projects</a>
+				</li>
+			</ul>
           </p>
           <div class="features">
             <section>
@@ -165,42 +167,62 @@
           </div>
         </div>
       </section>
-
-      <!-- Three -->
-      <section id="three" class="wrapper style1 fade-up">
+	  <!-- Three -->
+	  <section id="three" class="wrapper style2-alt fade-up">
+		<div class="inner">
+			<h2>Notable Projects</h2>
+			<section>
+				<h4>USC NetCat</h4>
+					<p>
+						<span class="image left"><img src="images/netcat.jpg" alt="" /></span>
+						I dreaded having to look through 5-7 different websites just to find all the juicy techtalks, career fairs, and networking events occuring 
+						at USC. After talking to a few friends, I realized that many people had the same concerns. Enter USC NetCat (short for USC Network Cataloge), 
+						a website that centralizes all career/ networking event data at USC into one convenient location. We automatically extract all the career data 
+						using Selenium and Beautiful soup, divide them by major and type, and display it on the website. 
+					</p>
+					<ul class="actions">
+						<li>
+							<a href="https://networkcatalogue.herokuapp.com/" class="button small">View the beta</a>
+						</li>
+					</ul>
+					<hr>
+					<h4>Norman Lear Center TV Database</h4>
+					<p>
+						<span class="image left"><img src="images/nlctvdb.jpg" alt="" /></span>
+						This is the website I was hired to create by the Norman Lear Center (NLC). Its a searchable web database of US television 
+						transcripts that returns all transcripts along side relevant meta data containing a key word typed in the search bar. 
+						I learned a ton about modern webstacks, backend database management, and reading third-party API documentation 
+						while building this. It was an amazing learning experience! Additionally, it helped the NLC save a lot of 
+						money since they no longer need to pay dozens of part time workers to search transcripts and extract meta data manually. 
+						Unfortunately, I can't post the link to the website because the NLC paid for the third-party api's services and they asked not 
+						to make the website totally public. 
+					</p>
+					<hr>
+					<ul class="actions">
+							<li>
+								<a href="https://github.com/SamuelLee98" class="button small">More in my github</a>
+							</li>
+					</ul>
+			</section>
+		
+	  </section>
+      <!-- Four -->
+      <section id="four" class="wrapper style1 fade-up">
         <div class="inner">
           <h2>Get in touch</h2>
           <p>
 		   I'm a sucker for exciting new projects and job opportunities. If you would like to schedule a time to chat with me or have any other questions about me
-		   feel free to shoot me a message!
+		   feel free to shoot me an email!
           </p>
-          <div class="split style1">
-            <section>
-              <form method="post" action="#">
-                <div class="fields">
-                  <div class="field half">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" />
-                  </div>
-                  <div class="field half">
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email" />
-                  </div>
-                  <div class="field">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" rows="5"></textarea>
-                  </div>
-                </div>
-                <ul class="actions">
-                  <li><a href="" class="button submit">Send Message</a></li>
-                </ul>
-              </form>
-            </section>
             <section>
               <ul class="contact">
+				<li>
+					<h3>Updated Resume</h3>
+					<a href="https://drive.google.com/file/d/1g3hXi1bYZGF1n0Mi_tjPOUpAcTU6cvIO/view?usp=sharing">Here</a>
+					</li>
                 <li>
-                  <h3>Email</h3>
-                  <a href="#">lee344@usc.edu</a>
+				  <h3>Email</h3>
+                  <a href="mailto:lee344@usc.edu">lee344@usc.edu</a>
                 </li>
                 <li>
                   <h3>Phone</h3>
@@ -233,7 +255,6 @@
                 </li>
               </ul>
             </section>
-          </div>
         </div>
       </section>
     </div>
@@ -242,8 +263,8 @@
     <footer id="footer" class="wrapper style1-alt">
       <div class="inner">
         <ul class="menu">
-          <!-- <li>&copy; Untitled. All rights reserved.</li>
-          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
+          <li>&copy; A Website By Samuel Lee</li>
+          <li>Styling Elements by: <a href="http://html5up.net">HTML5 UP</a></li>
         </ul>
       </div>
     </footer>
