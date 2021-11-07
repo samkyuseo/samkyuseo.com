@@ -1,9 +1,7 @@
-import { Button } from '@mantine/core';
+import { Button } from "@mantine/core";
 
 const App = () => {
-  return (
-    <Button>Hello world!</Button>
-  );
-}
+  return <Button>Hello world!</Button>;
+};
 
 export default App;
