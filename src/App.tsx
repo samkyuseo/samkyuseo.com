@@ -1,7 +1,15 @@
-import { Button } from "@mantine/core";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
 
 const App = () => {
-  return <Button>Hello world!</Button>;
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+    </>
+  );
 };
 
 export default App;
