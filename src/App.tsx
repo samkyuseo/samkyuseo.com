@@ -1,8 +1,8 @@
-function App() {
+import { Button } from '@mantine/core';
+
+const App = () => {
   return (
-    <>
-      Hello World
-    </>
+    <Button>Hello world!</Button>
   );
 }
 
