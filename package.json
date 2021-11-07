@@ -14,23 +14,30 @@
     "@types/react": "^17.0.34",
     "@types/react-dom": "^17.0.11",
     "dayjs": "^1.10.7",
+    "npm": "^8.1.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "typescript": "^4.4.4",
+    "uninstall": "0.0.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "format": "prettier --config .prettierrc src --write",
+    "lint": "eslint . --ext .ts"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
-    ]
+      "plugin:prettier/recommended",
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "rules": {
+      "no-console": "warn",
+      "@typescript-eslint/explicit-module-boundary-types": "off"
+    }
   },
   "browserslist": {
     "production": [
@@ -43,5 +50,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1",
+    "typescript-eslint": "0.0.1-alpha.0"
   }
 }
