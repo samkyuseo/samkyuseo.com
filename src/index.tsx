@@ -2,13 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
-import { MantineProvider } from "@mantine/core";
+import { ChakraProvider } from "@chakra-ui/react";
 
 ReactDOM.render(
   <React.StrictMode>
-    <MantineProvider theme={{ colorScheme: "dark" }}>
+    <ChakraProvider>
       <App />
-    </MantineProvider>
+    </ChakraProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
