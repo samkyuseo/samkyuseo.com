@@ -44,6 +44,7 @@ const Navbar = () => {
           alignItems="center"
           flexGrow={1}
           mt={{ base: 200, md: 0 }}
+          color="white"
         >
           <Link href="/videos" pl={2}>
             Videos
