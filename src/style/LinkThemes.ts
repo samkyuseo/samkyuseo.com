@@ -1,9 +1,18 @@
 export const LinkThemes = {
   sizes: {},
   variants: {
+    highlight: {
+      display: "inline",
+      fontFamily: "mono",
+      background: "quinary",
+      _hover: { bg: "tertiary" },
+      px: "5px",
+      borderRadius: "5px",
+      letterSpacing: "tighter",
+    },
     "nav-logo": {
       fontFamily: "brand.heading",
-      _focus: { textDecoration: "none" },
+      _focus: { textDecoration: "none", outline: "none" },
       _hover: {
         color: "primary",
         textDecoration: "none",

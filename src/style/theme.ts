@@ -23,6 +23,7 @@ const colors = {
   tertiary: "#E5989B",
   quaternary: "#E5989B",
   quinary: "#6D6875",
+  senary: "#4a4750",
 };
 const components = {
   Text,
