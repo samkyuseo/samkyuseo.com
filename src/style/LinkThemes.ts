@@ -12,7 +12,7 @@ export const LinkThemes = {
     },
     "nav-logo": {
       fontFamily: "brand.heading",
-      _focus: { textDecoration: "none", outline: "none" },
+      _focus: { textDecoration: "none", outline: "none !important" },
       _hover: {
         color: "primary",
         textDecoration: "none",
@@ -30,7 +30,11 @@ export const LinkThemes = {
     },
     "nav-link": {
       fontFamily: "brand.regular",
-      _hover: { bg: "gray.foreground", textDecoration: "none" },
+      _hover: {
+        bg: "gray.foreground",
+        textDecoration: "none",
+        outline: "none",
+      },
       _focus: { bg: "gray.foreground", textDecoration: "none" },
       py: "5px",
       px: "10px",

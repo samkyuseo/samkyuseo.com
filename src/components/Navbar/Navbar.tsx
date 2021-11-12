@@ -12,7 +12,7 @@ import {
 import { IconButton } from "@chakra-ui/button";
 import { IoLogoGithub } from "react-icons/io5";
 import { HamburgerIcon } from "@chakra-ui/icons";
-
+import { toast } from "react-hot-toast";
 import Logo from "./Logo";
 
 const Navbar = () => {
@@ -45,8 +45,13 @@ const Navbar = () => {
           mt={{ base: 200, md: 0 }}
           color="white"
         >
-          <Link href="/videos" variant="nav-link">
-            videos
+          <Link
+            variant="nav-link"
+            onClick={() => {
+              toast("tech blog is coming soon!", { duration: 2000 });
+            }}
+          >
+            tech
           </Link>
           <Link href="/contact" variant="nav-link">
             contact
@@ -81,15 +86,28 @@ const Navbar = () => {
                 borderColor="gray.foreground"
               >
                 <MenuItem
-                  _hover={{ bg: "gray.foreground" }}
                   _focus={{ bg: "gray.foreground" }}
+                  _hover={{ bg: "gray.foreground" }}
                 >
-                  Videos
+                  Contact
                 </MenuItem>
-                <MenuItem _hover={{ bg: "gray.foreground" }}>Contact</MenuItem>
-                <MenuItem isDisabled={true}>Tech Blog</MenuItem>
+                <MenuItem
+                  _focus={{ bg: "gray.foreground" }}
+                  _hover={{ bg: "gray.foreground" }}
+                  onClick={() => {
+                    toast("tech blog is coming soon!", { duration: 2000 });
+                  }}
+                >
+                  Tech Blog
+                </MenuItem>
                 <MenuDivider color="gray.foreground" />
-                <MenuItem style={{ gap: 5 }} _hover={{ bg: "gray.foreground" }}>
+                <MenuItem
+                  as="a"
+                  href="https://github.com/samkyuseo"
+                  style={{ gap: 5 }}
+                  _hover={{ bg: "gray.foreground" }}
+                  target="_blank"
+                >
                   <IoLogoGithub />
                   Github
                 </MenuItem>
