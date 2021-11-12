@@ -4,7 +4,7 @@ export const LinkThemes = {
     highlight: {
       display: "inline",
       fontFamily: "mono",
-      background: "quinary",
+      background: "senary",
       _hover: { bg: "tertiary" },
       px: "5px",
       borderRadius: "5px",

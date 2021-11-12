@@ -90,29 +90,24 @@ const About = () => {
             Opened the mac terminal and felt like a cool hacker. Tried code
             academy.
           </BioSection>
-          <br />
           <BioSection>
             <BioYear bg="quinary">2017</BioYear>
             Enrolled at the University of Southern California as a chemical
             engineering major. Reintroduced to coding through an engineering
             seminar class.
           </BioSection>
-          <br />
           <BioSection>
             <BioYear bg="quaternary">2017</BioYear>Won my first hackathon!
           </BioSection>
-          <br />
           <BioSection>
             <BioYear bg="tertiary">2018</BioYear>Secured my first tech
             internship!
           </BioSection>
-          <br />
           <BioSection>
             <BioYear bg="secondary">2021</BioYear>
             Graduated with a Bachelors of Science, Computer Science. 3.72 grade
             point average.
           </BioSection>
-          <br />
           <BioSection>
             <BioYear bg="primary">2021</BioYear>
             Joined{" "}
@@ -121,10 +116,10 @@ const About = () => {
             </Link>{" "}
             as their first official hire.
           </BioSection>
-          <br />
         </Box>
+        <br />
         <Flex textAlign="left">
-          <Text variant="section-title">📚Tech I Use a Lot</Text>
+          <Text variant="section-title">📚Current Stack</Text>
         </Flex>
         <Box textAlign="left">
           <BioSection>
@@ -132,17 +127,19 @@ const About = () => {
             <Text variant="bubble">TypeScript</Text>{" "}
             <Text variant="bubble">C++</Text>{" "}
           </BioSection>
-          <br />
           <BioSection>
             <BioYear>Frontend</BioYear>
-            <Text variant="bubble">React</Text>{" "}
+            <Text variant="bubble" ml="11px">
+              React
+            </Text>{" "}
             <Text variant="bubble">React Query</Text>{" "}
             <Text variant="bubble">Chakra UI</Text>
           </BioSection>
-          <br />
           <BioSection>
             <BioYear>Backend</BioYear>
-            <Text variant="bubble">Node</Text>{" "}
+            <Text variant="bubble" ml="15px">
+              Node
+            </Text>{" "}
             <Text variant="bubble">Express</Text>{" "}
             <Text variant="bubble">Firebase</Text>{" "}
             <Text variant="bubble">Azure</Text>{" "}
@@ -150,6 +147,7 @@ const About = () => {
           </BioSection>
         </Box>
       </Container>
+      <br></br>
     </Box>
   );
 };
