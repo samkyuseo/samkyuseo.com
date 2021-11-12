@@ -12,7 +12,7 @@ export const LinkThemes = {
     },
     "nav-logo": {
       fontFamily: "brand.heading",
-      _focus: { textDecoration: "none", outline: "none !important" },
+      _focus: { textDecoration: "none" },
       _hover: {
         color: "primary",
         textDecoration: "none",
