@@ -1,14 +1,13 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import Hero from "./components/Hero";
-import About from "./components/layout/About";
-import Videos from "./components/layout/Videos";
+import About from "./pages/About";
+import Videos from "./pages/Videos";
 
 const App = () => {
   return (
     <>
+      <Navbar />
       <Router>
-        <Navbar />
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/videos" element={<Videos />} />

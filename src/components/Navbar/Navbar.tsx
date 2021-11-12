@@ -8,7 +8,6 @@ import {
   MenuList,
   MenuItem,
   MenuDivider,
-  useColorModeValue,
 } from "@chakra-ui/react";
 import { IconButton } from "@chakra-ui/button";
 import { IoLogoGithub } from "react-icons/io5";
@@ -22,7 +21,7 @@ const Navbar = () => {
       position="fixed"
       as="nav"
       w="100%"
-      bg="#4A556890"
+      bg="gray.alpha"
       css={{ backdropFilter: "blur(5px)" }}
       zIndex={1}
     >
@@ -46,22 +45,21 @@ const Navbar = () => {
           mt={{ base: 200, md: 0 }}
           color="white"
         >
-          <Link href="/videos" pl={2}>
-            Videos
+          <Link href="/videos" variant="nav-link">
+            videos
           </Link>
-          <Link href="/contact" pl={2}>
-            Contact
+          <Link href="/contact" variant="nav-link">
+            contact
           </Link>
-
           <Link
             href="https://github.com/samkyuseo"
             display="flex"
             style={{ gap: 4 }}
-            pl={2}
             alignItems="center"
+            variant="nav-link"
           >
             <IoLogoGithub />
-            Github
+            source
           </Link>
         </Stack>
         {/* Subnavbar items */}
@@ -71,15 +69,27 @@ const Navbar = () => {
               <MenuButton
                 boxSize={10}
                 as={IconButton}
-                icon={<HamburgerIcon />}
-                bg="whiteAlpha.90"
+                icon={<HamburgerIcon color="white" />}
+                bg="gray.alpha"
+                _hover={{ bg: "gray.foreground" }}
+                _active={{ bg: "gray.foreground" }}
+                _focus={{ boxShadow: "none" }}
               />
-              <MenuList>
-                <MenuItem>Videos</MenuItem>
-                <MenuItem>Contact</MenuItem>
+              <MenuList
+                bg="gray.background"
+                color="white"
+                borderColor="gray.foreground"
+              >
+                <MenuItem
+                  _hover={{ bg: "gray.foreground" }}
+                  _focus={{ bg: "gray.foreground" }}
+                >
+                  Videos
+                </MenuItem>
+                <MenuItem _hover={{ bg: "gray.foreground" }}>Contact</MenuItem>
                 <MenuItem isDisabled={true}>Tech Blog</MenuItem>
-                <MenuDivider />
-                <MenuItem style={{ gap: 5 }}>
+                <MenuDivider color="gray.foreground" />
+                <MenuItem style={{ gap: 5 }} _hover={{ bg: "gray.foreground" }}>
                   <IoLogoGithub />
                   Github
                 </MenuItem>
