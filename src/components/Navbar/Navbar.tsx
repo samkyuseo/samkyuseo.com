@@ -53,15 +53,20 @@ const Navbar = () => {
           >
             tech
           </Link>
-          <Link href="/contact" variant="nav-link">
+          <Link
+            href="https://www.linkedin.com/in/samkyuseo/"
+            target="_blank"
+            variant="nav-link"
+          >
             contact
           </Link>
           <Link
-            href="https://github.com/samkyuseo"
+            href="https://github.com/samkyuseo/samkyuseo.github.io"
             display="flex"
             style={{ gap: 4 }}
             alignItems="center"
             variant="nav-link"
+            target="_blank"
           >
             <IoLogoGithub />
             source

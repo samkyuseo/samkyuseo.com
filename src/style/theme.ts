@@ -2,7 +2,7 @@ import { extendTheme } from "@chakra-ui/react";
 import { ButtonThemes as Button } from "./ButtonThemes";
 import { LinkThemes as Link } from "./LinkThemes";
 import { TextThemes as Text } from "./TextThemes";
-
+import { DividerThemes as Divider } from "./DividerThemes";
 // default global styles
 const styles = {
   global: {
@@ -29,6 +29,7 @@ const components = {
   Text,
   Button,
   Link,
+  Divider,
 };
 const fonts = {
   brand: {

@@ -12,6 +12,7 @@ import {
 import { BioYear } from "./../components/Bio/BioYear";
 import { BioSection } from "./../components/Bio/BioSection";
 import Hero from "../components/Hero/Hero";
+import { IoLogoGithub } from "react-icons/io5";
 
 const About = () => {
   return (
@@ -76,8 +77,9 @@ const About = () => {
           _focus={{ background: "secondary", outline: "none" }}
           href="https://github.com/samkyuseo"
           target="_blank"
+          style={{ gap: "3px" }}
         >
-          My Github
+          <IoLogoGithub /> Github
         </Button>
         <br />
         <br />
@@ -147,7 +149,6 @@ const About = () => {
           </BioSection>
         </Box>
       </Container>
-      <br></br>
     </Box>
   );
 };
