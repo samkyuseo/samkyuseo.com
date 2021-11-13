@@ -10,7 +10,7 @@ const Footer = () => {
       <Divider borderColor="gray.foreground" mt="30px" />
       <Box py={5}>
         <Container color="senary" fontSize="12px" align="center">
-          Built with 💜 by Samuel Kyuseo Lee
+          Built with 💜 by samykuseo
         </Container>
         <Container color="senary" fontSize="12px" align="center">
           Design inspo 💛 devaslife
