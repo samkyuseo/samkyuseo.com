@@ -94,7 +94,7 @@ const Navbar = () => {
                   _focus={{ bg: "gray.foreground" }}
                   _hover={{ bg: "gray.foreground" }}
                 >
-                  Contact
+                  contact
                 </MenuItem>
                 <MenuItem
                   _focus={{ bg: "gray.foreground" }}
@@ -103,7 +103,7 @@ const Navbar = () => {
                     toast("tech blog is coming soon!", { duration: 2000 });
                   }}
                 >
-                  Tech Blog
+                  tech
                 </MenuItem>
                 <MenuDivider color="gray.foreground" />
                 <MenuItem
@@ -114,7 +114,7 @@ const Navbar = () => {
                   target="_blank"
                 >
                   <IoLogoGithub />
-                  Github
+                  github
                 </MenuItem>
               </MenuList>
             </Menu>

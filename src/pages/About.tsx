@@ -25,7 +25,7 @@ const About = () => {
               Samuel Kyuseo Lee
             </Heading>
             <Text fontFamily="brand.regular" fontSize="15px">
-              Fullstack Engineer
+              fullstack engineer
             </Text>
           </Box>
           <Box
@@ -47,7 +47,7 @@ const About = () => {
           </Box>
         </Box>
         <Flex textAlign="left">
-          <Text variant="section-title">🚀About Me</Text>
+          <Text variant="section-title">🚀about</Text>
         </Flex>
         <Box textAlign="left">
           <Text>
@@ -79,12 +79,12 @@ const About = () => {
           target="_blank"
           style={{ gap: "3px" }}
         >
-          <IoLogoGithub /> Github
+          <IoLogoGithub /> github
         </Button>
         <br />
         <br />
         <Flex textAlign="left">
-          <Text variant="section-title">🌎How I Got Here</Text>
+          <Text variant="section-title">🌎bio</Text>
         </Flex>
         <Box textAlign="left">
           <BioSection>
@@ -121,31 +121,31 @@ const About = () => {
         </Box>
         <br />
         <Flex textAlign="left">
-          <Text variant="section-title">📚Current Stack</Text>
+          <Text variant="section-title">📚stack</Text>
         </Flex>
         <Box textAlign="left">
           <BioSection>
-            <BioYear>Languages</BioYear>
-            <Text variant="bubble">TypeScript</Text>{" "}
-            <Text variant="bubble">C++</Text>{" "}
+            <BioYear>languages</BioYear>
+            <Text variant="bubble">typescript</Text>{" "}
+            <Text variant="bubble">c++</Text>{" "}
           </BioSection>
           <BioSection>
-            <BioYear>Frontend</BioYear>
+            <BioYear>frontend</BioYear>
             <Text variant="bubble" ml="11px">
-              React
+              react
             </Text>{" "}
-            <Text variant="bubble">React Query</Text>{" "}
-            <Text variant="bubble">Chakra UI</Text>
+            <Text variant="bubble">react query</Text>{" "}
+            <Text variant="bubble">chakra ui</Text>
           </BioSection>
           <BioSection>
-            <BioYear>Backend</BioYear>
+            <BioYear>backend</BioYear>
             <Text variant="bubble" ml="15px">
-              Node
+              node
             </Text>{" "}
-            <Text variant="bubble">Express</Text>{" "}
-            <Text variant="bubble">Firebase</Text>{" "}
-            <Text variant="bubble">Azure</Text>{" "}
-            <Text variant="bubble">MongoDB</Text>
+            <Text variant="bubble">express</Text>{" "}
+            <Text variant="bubble">firebase</Text>{" "}
+            <Text variant="bubble">azure</Text>{" "}
+            <Text variant="bubble">mongo db</Text>
           </BioSection>
         </Box>
       </Container>
