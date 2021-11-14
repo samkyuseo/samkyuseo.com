@@ -1,6 +1,5 @@
 {
-  "name": "personalwebsite",
-  "homepage": "http://samykyuseo.github.io/personalwebsite",
+  "name": "samkyuseo.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
