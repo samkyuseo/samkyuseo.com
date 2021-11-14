@@ -141,7 +141,6 @@ const About = () => {
             <Text variant="bubble">express</Text>{" "}
             <Text variant="bubble">firebase</Text>{" "}
             <Text variant="bubble">azure</Text>{" "}
-            <Text variant="bubble">mongo db</Text>
           </BioSection>
         </Box>
       </Container>
