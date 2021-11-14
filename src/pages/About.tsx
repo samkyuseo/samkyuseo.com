@@ -131,17 +131,13 @@ const About = () => {
           </BioSection>
           <BioSection>
             <BioYear>frontend</BioYear>
-            <Text variant="bubble" ml="11px">
-              react
-            </Text>{" "}
+            <Text variant="bubble">react</Text>{" "}
             <Text variant="bubble">react query</Text>{" "}
             <Text variant="bubble">chakra ui</Text>
           </BioSection>
           <BioSection>
             <BioYear>backend</BioYear>
-            <Text variant="bubble" ml="15px">
-              node
-            </Text>{" "}
+            <Text variant="bubble">node</Text>{" "}
             <Text variant="bubble">express</Text>{" "}
             <Text variant="bubble">firebase</Text>{" "}
             <Text variant="bubble">azure</Text>{" "}
