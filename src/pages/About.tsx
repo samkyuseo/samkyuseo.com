@@ -99,16 +99,14 @@ const About = () => {
             seminar class.
           </BioSection>
           <BioSection>
-            <BioYear bg="quaternary">2017</BioYear>Won my first hackathon!
+            <BioYear bg="quaternary">2017</BioYear>First hackathon win.
           </BioSection>
           <BioSection>
-            <BioYear bg="tertiary">2018</BioYear>Secured my first tech
-            internship!
+            <BioYear bg="tertiary">2018</BioYear>First tech internship.
           </BioSection>
           <BioSection>
             <BioYear bg="secondary">2021</BioYear>
-            Graduated with a Bachelors of Science, Computer Science. 3.72 grade
-            point average.
+            Graduated with a Bachelors of Science, Computer Science.
           </BioSection>
           <BioSection>
             <BioYear bg="primary">2021</BioYear>
