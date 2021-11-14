@@ -128,7 +128,7 @@ const About = () => {
             <BioYear>languages</BioYear>
             <Text variant="bubble">typescript</Text>{" "}
             <Text variant="bubble">c++</Text>{" "}
-            <Text variant="bubble">powershell</Text>{" "}
+            <Text variant="bubble">pwshell</Text>{" "}
           </BioSection>
           <BioSection>
             <BioYear>frontend</BioYear>
