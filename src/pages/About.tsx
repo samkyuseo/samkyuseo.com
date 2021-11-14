@@ -63,7 +63,7 @@ const About = () => {
               Atomus
             </Link>
             , where he was hired as the{" "}
-            <Text variant="highlight">first employee</Text> . Thanks to this
+            <Text variant="highlight">first employee</Text>. Thanks to this
             opportunity, he has been able to help create the company's desktop
             app and dev ops tools. Currently, he is actively working on the
             company's cloud monitoring solution.
