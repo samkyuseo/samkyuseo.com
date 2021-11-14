@@ -1,6 +1,6 @@
 {
-  "name": "my-app",
-  "homepage": "http://samykyuseo.github.io/my-app",
+  "name": "personalwebsite",
+  "homepage": "http://samykyuseo.github.io/personalwebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -26,6 +26,7 @@
     "react-router": "^6.0.1",
     "react-router-dom": "^6.0.1",
     "react-scripts": "4.0.3",
+    "serve": "^13.0.2",
     "typescript": "^4.4.4",
     "uninstall": "0.0.0",
     "web-vitals": "^1.1.2"
