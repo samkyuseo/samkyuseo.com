@@ -128,19 +128,24 @@ const About = () => {
             <BioYear>languages</BioYear>
             <Text variant="bubble">typescript</Text>{" "}
             <Text variant="bubble">c++</Text>{" "}
+            <Text variant="bubble">powershell</Text>{" "}
           </BioSection>
           <BioSection>
             <BioYear>frontend</BioYear>
             <Text variant="bubble">react</Text>{" "}
             <Text variant="bubble">react query</Text>{" "}
-            <Text variant="bubble">chakra ui</Text>
+            <Text variant="bubble">chakra</Text>
           </BioSection>
           <BioSection>
             <BioYear>backend</BioYear>
             <Text variant="bubble">node</Text>{" "}
             <Text variant="bubble">express</Text>{" "}
+          </BioSection>
+          <BioSection>
+            <BioYear>database</BioYear>
             <Text variant="bubble">firebase</Text>{" "}
             <Text variant="bubble">azure</Text>{" "}
+            <Text variant="bubble">mongodb</Text>{" "}
           </BioSection>
         </Box>
       </Container>
