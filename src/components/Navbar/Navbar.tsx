@@ -93,17 +93,20 @@ const Navbar = () => {
                 <MenuItem
                   _focus={{ bg: "gray.foreground" }}
                   _hover={{ bg: "gray.foreground" }}
-                >
-                  contact
-                </MenuItem>
-                <MenuItem
-                  _focus={{ bg: "gray.foreground" }}
-                  _hover={{ bg: "gray.foreground" }}
                   onClick={() => {
                     toast("tech blog is coming soon!", { duration: 2000 });
                   }}
                 >
                   tech
+                </MenuItem>
+                <MenuItem
+                  _focus={{ bg: "gray.foreground" }}
+                  _hover={{ bg: "gray.foreground" }}
+                  as="a"
+                  href="https://linkedin.com/in/samkyuseo"
+                  target="_blank"
+                >
+                  contact
                 </MenuItem>
                 <MenuDivider color="gray.foreground" />
                 <MenuItem
