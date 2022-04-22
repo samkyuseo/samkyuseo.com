@@ -9,13 +9,13 @@ const Footer = () => {
     <>
       <Divider borderColor="gray.foreground" mt="30px" />
       <Box py={5}>
-        <Container color="senary" fontSize="12px" align="center">
+        <Container color="senary" fontSize="12px" textAlign="center">
           built by 💜 samykuseo
         </Container>
-        <Container color="senary" fontSize="12px" align="center">
+        <Container color="senary" fontSize="12px" textAlign="center">
           design inspo 💛 devaslife
         </Container>
-        <Container align="center" mt="10px">
+        <Container textAlign="center" mt="10px">
           <Link
             href="https://www.linkedin.com/in/samkyuseo/"
             target="_blank"

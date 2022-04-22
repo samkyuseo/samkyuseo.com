@@ -1,4 +1,3 @@
-// https://mantine.dev/core/timeline/
 import {
   Box,
   Image,
@@ -17,7 +16,7 @@ import { IoLogoGithub } from "react-icons/io5";
 const About = () => {
   return (
     <Box pt={20}>
-      <Container align="center">
+      <Container textAlign="center">
         <Hero />
         <Box display={{ md: "flex" }} mt="20px">
           <Box flexGrow={1} textAlign="left">
@@ -52,21 +51,13 @@ const About = () => {
         <Box textAlign="left">
           <Text>
             &emsp; Sam is a <Text variant="highlight">software engineer</Text>{" "}
-            based in the San Francisco Bay Area. He is passionate about full
-            stack application development because of the diversity of tech he
-            gets to learn and code.
-          </Text>
-          <br />
-          <Text>
-            &emsp; Sam works at a very early stage startup called{" "}
-            <Link href="https://www.atomuscyber.com" variant="highlight">
-              Atomus
+            {"based in the San Francisco Bay Area. He is passionate about full \
+            stack application development because of the diversity of tech he \
+            gets to learn and code. Sam works at a startup called "}
+            <Link href="https://www.astranis.com/" variant="highlight">
+              Astranis
             </Link>
-            , where he was hired as the{" "}
-            <Text variant="highlight">first employee</Text>. Thanks to this
-            opportunity, he has been able to help create the company's desktop
-            app and dev ops tools. Currently, he is actively working on the
-            company's cloud monitoring solution.
+            .
           </Text>
         </Box>
         <br />

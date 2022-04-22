@@ -29,9 +29,9 @@ const Navbar = () => {
         display="flex"
         p={3}
         maxW="container.md"
-        wrap="wrap"
-        align="center"
-        justify="space-between"
+        flexWrap="wrap"
+        textAlign="center"
+        justifyContent="space-between"
       >
         {/* Logo */}
         <Logo />
@@ -73,7 +73,7 @@ const Navbar = () => {
           </Link>
         </Stack>
         {/* Subnavbar items */}
-        <Box flex={1} align="right">
+        <Box flex={1} textAlign="right">
           <Box display={{ base: "inline-block", md: "none" }}>
             <Menu>
               <MenuButton

@@ -2,8 +2,8 @@ import { Image } from "@chakra-ui/image";
 import { Box, Text } from "@chakra-ui/layout";
 const Hero = () => {
   return (
-    <>
-      <Image src="/hi.png" boxSize="210px" mb="20px" />
+    <Box>
+      <Image src="/hi.png" boxSize="210px" mb="20px" marginX="auto" />
       <Box
         bg="gray.foreground"
         borderRadius="5px"
@@ -15,7 +15,7 @@ const Hero = () => {
       >
         <Text>Hi! I'm a Software Engineer based in the Bay Area.</Text>
       </Box>
-    </>
+    </Box>
   );
 };
 
