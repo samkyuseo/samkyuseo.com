@@ -107,6 +107,14 @@ const About = () => {
             </Link>{" "}
             as their first official hire.
           </BioSection>
+          <BioSection>
+            <BioYear bg="primary">2022</BioYear>
+            Joined{" "}
+            <Link href="www.atomuscyber.com" target="_blank">
+              Astranis
+            </Link>{" "}
+            as their 2nd ever full stack engineer hire.
+          </BioSection>
         </Box>
         <br />
         <Flex textAlign="left">
