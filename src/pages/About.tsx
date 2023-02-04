@@ -51,13 +51,24 @@ const About = () => {
         <Box textAlign="left">
           <Text>
             &emsp; Sam is a <Text variant="highlight">software engineer</Text>{" "}
-            {"based in the San Francisco Bay Area. He is passionate about full \
-            stack application development because of the diversity of tech he \
-            gets to learn and code. Sam works at a startup called "}
+            {
+              "based in the San Francisco Bay Area. He is passionate about full \
+              stack application development because of the diversity of tech he \
+              gets to learn and code. Sam works at a startup called "
+            }
             <Link href="https://www.astranis.com/" variant="highlight">
-              Astranis
+              Astranis.
             </Link>
-            .
+          </Text>
+          <br />
+          <Text>
+            &emsp;
+            {
+              "He's a highly motivated individual that loves to take on challenges, \
+              collaborate, and work in stimulating environments. He's currently looking to \
+              improve himself, learn more about working in the industry, and \
+              develop long-lasting relationships!"
+            }
           </Text>
         </Box>
         <br />
@@ -113,7 +124,9 @@ const About = () => {
             <Link href="www.atomuscyber.com" target="_blank">
               Astranis
             </Link>{" "}
-            as their 2nd ever full stack engineer hire.
+            {
+              "as their 2nd ever full stack engineer hire. Building a lot of cool stuff!"
+            }
           </BioSection>
         </Box>
         <br />
